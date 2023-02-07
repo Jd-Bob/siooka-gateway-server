@@ -2,7 +2,7 @@ node {
     checkout scm
 
     stage("Clone") {
-        git branch: 'master', url: 'https://github.com/Jd-Bob/siooka.git'
+        git branch: 'master', url: 'https://github.com/Jd-Bob/siooka-gateway-server.git'
     }
 
     stage("Build") {
